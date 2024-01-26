@@ -29,6 +29,11 @@ a:focus {
   outline: 4px solid black;
 }
 
+/* original grey text colour did not contrast enough with background */
+::placeholder {
+  color: rgb(38, 38, 38);
+}
+
 .main-nav ul {
   list-style: none;
   display: flex;
