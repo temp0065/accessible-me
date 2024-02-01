@@ -1,9 +1,7 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  /* background-color: grey; */
   margin: 0;
   padding: 0;
-  background-color: grey;
 }
 
 h1,
@@ -19,7 +17,6 @@ h6 {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
-  background-color: white;
 }
 
 img {

@@ -22,10 +22,10 @@
       <h1 id="logo">Jam Box Studios</h1>
       <nav role="navigation" id="nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">Studio</a></li>
+          <li><a href="#" aria-label="Go to home screen">Home</a></li>
+          <li><a href="#" aria-label="See our products">Products</a></li>
+          <li><a href="#" aria-label="Get a reservation">Reservation</a></li>
+          <li><a href="#" aria-label="Check out our studio">Studio</a></li>
         </ul>
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner" alt="Image of kitten">
@@ -52,18 +52,18 @@
           </p>
         </div>
       </div>
-      <section class="contact-section" role="form">
+      <section class="contact-section" role="form" aria-label="Contact information">
         <h1>Contact Us</h1>
         <form action="thanks.html">
           <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
+          <input type="text" placeholder="Full Name" aria-label="What is your full name?">
           <label>Email</label>
-          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Email" aria-label="What is your email?">
           <label>Subject</label>
-          <input type="text" placeholder="Subject">
+          <input type="text" placeholder="Subject" aria-label="What is your subject?">
           <b>Your Message</b>
-          <textarea></textarea>
-          <button type="submit">Send</button>
+          <textarea aria-placeholder="Enter your message"></textarea>
+          <button type="submit" role="button" aria-label="Submit information">Send</button>
         </form>
       </section>
     </main>
